@@ -1,0 +1,127 @@
+@charset "UTF8";
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format(opentype);
+}
+
+
+body {
+    background-color: #84E1AD;
+    margin: 0px 5px 0px 5px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3BD17F, #2C9D5E, #1A5C38);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0px;
+    padding: 15px;
+}
+
+nav {
+    padding: 10px;
+    text-align: left;
+}
+
+nav >a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+    font-family: 'Idroid';
+    color: #1A5B38;
+    padding: 10px;
+}
+
+.h2 {
+    font-family: 'Idroid';
+    background-image: linear-gradient(to right, #63f1633d, #C5EBD5, #E4F7EC,#ffffff);
+    margin: 10px;
+    color: #316F4C;  
+}
+
+main >p {
+background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border-radius: 0px 0px 5px 5px;
+    padding: 1px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+article >p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+section#youtube {
+    background-color: #1A5B38;
+    text-align: center;
+    padding: 15px;
+    margin: -10px;
+}
+
+.aprender {
+    background-color: #2FA866;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    text-indent: 10px;
+}
+
+.aprender >h3 {
+    margin: 20px 0px 0px 0px;
+    padding: 3px;
+}
+
+.aprender >article {
+    background-color: #C5EBD6;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 5px;
+}
+
+.lista {
+    text-decoration: underline;   
+}
+
+.link {
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #1A5C38;
+    text-align: center;
+    padding: 0px;
+    color: white;
+}
+
+footer >p {
+    margin: 10px 10px 0px 10px;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.linkroda {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
